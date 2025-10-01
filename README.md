@@ -37,8 +37,7 @@ public class Formulario extends JFrame{
 		menuFile.add(itemSalir);
 		
 		
-		JTabbedPane panelPestanas = new JTabbedPane();
-		add(panelPestanas, BorderLayout.CENTER);
+	
 		panelPestanas.addTab("Datos Personales", new JPanel());
 		panelPestanas.add("Información", new JPanel());
 		panelPestanas.add("Comentarios", new JPanel());
